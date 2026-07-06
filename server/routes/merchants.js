@@ -47,17 +47,28 @@ router.post("/:id/consent", async (req, res) => {
 // GET /api/v1/merchants — officer only, sorted by FHS desc
 router.get("/", protect, async (req, res) => {
   try {
-    const merchants = await Merchant.find().sort({ createdAt: -1 }).lean();
-
-    // Attach latest credit score to each merchant
-    const enriched = await Promise.all(
-      merchants.map(async (m) => {
-        const score = await CreditScore.findOne({ merchantId: m._id })
-          .sort({ computedAt: -1 })
-          .lean();
-        return { ...m, creditScore: score || null };
-      })
-    );
+    const enriched = await Merchant.aggregate([
+      {
+        $lookup: {
+          from: "creditscores",
+          let: { merchantId: "$_id" },
+          pipeline: [
+            { $match: { $expr: { $eq: ["$merchantId", "$$merchantId"] } } },
+            { $sort: { computedAt: -1 } },
+            { $limit: 1 }
+          ],
+          as: "creditScore"
+        }
+      },
+      {
+        $addFields: {
+          creditScore: { $arrayElemAt: ["$creditScore", 0] }
+        }
+      },
+      {
+        $sort: { createdAt: -1 }
+      }
+    ]);
 
     // Sort by FHS descending (nulls last)
     enriched.sort((a, b) => {
