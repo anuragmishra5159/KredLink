@@ -1,0 +1,30 @@
+[
+  {
+    "profile_id": "MSME-KL-000123",
+    "period": "2026-03-01",
+    "gstr1_sales": 983195.83,
+    "gstr3b_turnover": 998199.83,
+    "filed_on": "2026-03-18"
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "period": "2026-04-01",
+    "gstr1_sales": 991355.12,
+    "gstr3b_turnover": 974835.08,
+    "filed_on": "2026-04-18"
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "period": "2026-05-01",
+    "gstr1_sales": 872741.92,
+    "gstr3b_turnover": 894412.25,
+    "filed_on": "2026-05-18"
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "period": "2026-06-01",
+    "gstr1_sales": 888187.29,
+    "gstr3b_turnover": 890269.47,
+    "filed_on": "2026-06-18"
+  }
+]

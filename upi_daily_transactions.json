@@ -1,0 +1,632 @@
+[
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-07",
+    "inflow_amount": 31038.91,
+    "txn_count": 44,
+    "distinct_payer_count": 27
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-08",
+    "inflow_amount": 32375.52,
+    "txn_count": 56,
+    "distinct_payer_count": 40
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-09",
+    "inflow_amount": 32563.42,
+    "txn_count": 43,
+    "distinct_payer_count": 28
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-10",
+    "inflow_amount": 33708.55,
+    "txn_count": 46,
+    "distinct_payer_count": 31
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-11",
+    "inflow_amount": 38641.42,
+    "txn_count": 53,
+    "distinct_payer_count": 38
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-12",
+    "inflow_amount": 33730.77,
+    "txn_count": 50,
+    "distinct_payer_count": 35
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-13",
+    "inflow_amount": 31633.3,
+    "txn_count": 44,
+    "distinct_payer_count": 33
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-14",
+    "inflow_amount": 30565.75,
+    "txn_count": 39,
+    "distinct_payer_count": 23
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-15",
+    "inflow_amount": 34294.89,
+    "txn_count": 43,
+    "distinct_payer_count": 25
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-16",
+    "inflow_amount": 36594.9,
+    "txn_count": 53,
+    "distinct_payer_count": 37
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-17",
+    "inflow_amount": 33318.4,
+    "txn_count": 34,
+    "distinct_payer_count": 23
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-18",
+    "inflow_amount": 39763.28,
+    "txn_count": 50,
+    "distinct_payer_count": 34
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-19",
+    "inflow_amount": 38669.5,
+    "txn_count": 42,
+    "distinct_payer_count": 32
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-20",
+    "inflow_amount": 27081.49,
+    "txn_count": 40,
+    "distinct_payer_count": 22
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-21",
+    "inflow_amount": 31866.14,
+    "txn_count": 51,
+    "distinct_payer_count": 29
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-22",
+    "inflow_amount": 31659.36,
+    "txn_count": 48,
+    "distinct_payer_count": 30
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-23",
+    "inflow_amount": 29493.65,
+    "txn_count": 40,
+    "distinct_payer_count": 26
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-24",
+    "inflow_amount": 32134.77,
+    "txn_count": 50,
+    "distinct_payer_count": 39
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-25",
+    "inflow_amount": 33210.0,
+    "txn_count": 43,
+    "distinct_payer_count": 25
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-26",
+    "inflow_amount": 35937.53,
+    "txn_count": 47,
+    "distinct_payer_count": 30
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-27",
+    "inflow_amount": 36064.3,
+    "txn_count": 44,
+    "distinct_payer_count": 30
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-28",
+    "inflow_amount": 29041.37,
+    "txn_count": 33,
+    "distinct_payer_count": 25
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-29",
+    "inflow_amount": 31607.3,
+    "txn_count": 47,
+    "distinct_payer_count": 30
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-04-30",
+    "inflow_amount": 31254.94,
+    "txn_count": 50,
+    "distinct_payer_count": 39
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-01",
+    "inflow_amount": 33483.9,
+    "txn_count": 41,
+    "distinct_payer_count": 29
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-02",
+    "inflow_amount": 29755.71,
+    "txn_count": 63,
+    "distinct_payer_count": 42
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-03",
+    "inflow_amount": 35966.44,
+    "txn_count": 58,
+    "distinct_payer_count": 40
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-04",
+    "inflow_amount": 31160.79,
+    "txn_count": 54,
+    "distinct_payer_count": 42
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-05",
+    "inflow_amount": 29683.24,
+    "txn_count": 48,
+    "distinct_payer_count": 38
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-06",
+    "inflow_amount": 30105.38,
+    "txn_count": 45,
+    "distinct_payer_count": 25
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-07",
+    "inflow_amount": 34971.17,
+    "txn_count": 51,
+    "distinct_payer_count": 38
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-08",
+    "inflow_amount": 30476.52,
+    "txn_count": 46,
+    "distinct_payer_count": 30
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-09",
+    "inflow_amount": 40740.14,
+    "txn_count": 52,
+    "distinct_payer_count": 41
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-10",
+    "inflow_amount": 36583.59,
+    "txn_count": 51,
+    "distinct_payer_count": 37
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-11",
+    "inflow_amount": 29847.94,
+    "txn_count": 37,
+    "distinct_payer_count": 23
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-12",
+    "inflow_amount": 30515.18,
+    "txn_count": 42,
+    "distinct_payer_count": 28
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-13",
+    "inflow_amount": 23897.21,
+    "txn_count": 50,
+    "distinct_payer_count": 38
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-14",
+    "inflow_amount": 31183.14,
+    "txn_count": 53,
+    "distinct_payer_count": 32
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-15",
+    "inflow_amount": 37019.6,
+    "txn_count": 38,
+    "distinct_payer_count": 24
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-16",
+    "inflow_amount": 32984.89,
+    "txn_count": 43,
+    "distinct_payer_count": 25
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-17",
+    "inflow_amount": 36584.82,
+    "txn_count": 42,
+    "distinct_payer_count": 31
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-18",
+    "inflow_amount": 31393.72,
+    "txn_count": 45,
+    "distinct_payer_count": 28
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-19",
+    "inflow_amount": 38806.98,
+    "txn_count": 47,
+    "distinct_payer_count": 36
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-20",
+    "inflow_amount": 32846.68,
+    "txn_count": 40,
+    "distinct_payer_count": 23
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-21",
+    "inflow_amount": 37086.31,
+    "txn_count": 33,
+    "distinct_payer_count": 19
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-22",
+    "inflow_amount": 30292.7,
+    "txn_count": 45,
+    "distinct_payer_count": 33
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-23",
+    "inflow_amount": 36416.62,
+    "txn_count": 48,
+    "distinct_payer_count": 32
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-24",
+    "inflow_amount": 33477.16,
+    "txn_count": 50,
+    "distinct_payer_count": 38
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-25",
+    "inflow_amount": 29544.72,
+    "txn_count": 47,
+    "distinct_payer_count": 32
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-26",
+    "inflow_amount": 31230.28,
+    "txn_count": 40,
+    "distinct_payer_count": 25
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-27",
+    "inflow_amount": 36133.93,
+    "txn_count": 45,
+    "distinct_payer_count": 30
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-28",
+    "inflow_amount": 29884.66,
+    "txn_count": 45,
+    "distinct_payer_count": 27
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-29",
+    "inflow_amount": 29259.08,
+    "txn_count": 53,
+    "distinct_payer_count": 32
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-30",
+    "inflow_amount": 36487.74,
+    "txn_count": 55,
+    "distinct_payer_count": 39
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-05-31",
+    "inflow_amount": 37279.38,
+    "txn_count": 69,
+    "distinct_payer_count": 53
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-01",
+    "inflow_amount": 33629.41,
+    "txn_count": 47,
+    "distinct_payer_count": 34
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-02",
+    "inflow_amount": 31879.88,
+    "txn_count": 49,
+    "distinct_payer_count": 38
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-03",
+    "inflow_amount": 28234.53,
+    "txn_count": 42,
+    "distinct_payer_count": 31
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-04",
+    "inflow_amount": 32235.15,
+    "txn_count": 41,
+    "distinct_payer_count": 24
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-05",
+    "inflow_amount": 28451.32,
+    "txn_count": 48,
+    "distinct_payer_count": 32
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-06",
+    "inflow_amount": 35503.33,
+    "txn_count": 40,
+    "distinct_payer_count": 32
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-07",
+    "inflow_amount": 39268.79,
+    "txn_count": 56,
+    "distinct_payer_count": 36
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-08",
+    "inflow_amount": 33061.9,
+    "txn_count": 41,
+    "distinct_payer_count": 24
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-09",
+    "inflow_amount": 28323.09,
+    "txn_count": 47,
+    "distinct_payer_count": 29
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-10",
+    "inflow_amount": 31508.82,
+    "txn_count": 61,
+    "distinct_payer_count": 40
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-11",
+    "inflow_amount": 34105.2,
+    "txn_count": 38,
+    "distinct_payer_count": 21
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-12",
+    "inflow_amount": 37585.08,
+    "txn_count": 45,
+    "distinct_payer_count": 36
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-13",
+    "inflow_amount": 42624.98,
+    "txn_count": 45,
+    "distinct_payer_count": 27
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-14",
+    "inflow_amount": 33683.27,
+    "txn_count": 52,
+    "distinct_payer_count": 34
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-15",
+    "inflow_amount": 34413.91,
+    "txn_count": 47,
+    "distinct_payer_count": 37
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-16",
+    "inflow_amount": 30965.61,
+    "txn_count": 57,
+    "distinct_payer_count": 38
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-17",
+    "inflow_amount": 24385.22,
+    "txn_count": 53,
+    "distinct_payer_count": 42
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-18",
+    "inflow_amount": 26715.04,
+    "txn_count": 41,
+    "distinct_payer_count": 24
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-19",
+    "inflow_amount": 29063.32,
+    "txn_count": 63,
+    "distinct_payer_count": 44
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-20",
+    "inflow_amount": 30328.72,
+    "txn_count": 48,
+    "distinct_payer_count": 27
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-21",
+    "inflow_amount": 32468.77,
+    "txn_count": 47,
+    "distinct_payer_count": 36
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-22",
+    "inflow_amount": 35974.14,
+    "txn_count": 60,
+    "distinct_payer_count": 34
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-23",
+    "inflow_amount": 33188.31,
+    "txn_count": 54,
+    "distinct_payer_count": 39
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-24",
+    "inflow_amount": 31650.13,
+    "txn_count": 49,
+    "distinct_payer_count": 38
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-25",
+    "inflow_amount": 31602.23,
+    "txn_count": 54,
+    "distinct_payer_count": 38
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-26",
+    "inflow_amount": 27797.68,
+    "txn_count": 50,
+    "distinct_payer_count": 34
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-27",
+    "inflow_amount": 38506.22,
+    "txn_count": 50,
+    "distinct_payer_count": 36
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-28",
+    "inflow_amount": 36487.38,
+    "txn_count": 60,
+    "distinct_payer_count": 43
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-29",
+    "inflow_amount": 30637.92,
+    "txn_count": 51,
+    "distinct_payer_count": 38
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-06-30",
+    "inflow_amount": 34681.51,
+    "txn_count": 48,
+    "distinct_payer_count": 38
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-07-01",
+    "inflow_amount": 32747.9,
+    "txn_count": 45,
+    "distinct_payer_count": 27
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-07-02",
+    "inflow_amount": 30789.97,
+    "txn_count": 61,
+    "distinct_payer_count": 47
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-07-03",
+    "inflow_amount": 33730.9,
+    "txn_count": 40,
+    "distinct_payer_count": 24
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-07-04",
+    "inflow_amount": 39107.11,
+    "txn_count": 41,
+    "distinct_payer_count": 29
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "txn_date": "2026-07-05",
+    "inflow_amount": 41569.07,
+    "txn_count": 51,
+    "distinct_payer_count": 28
+  }
+]

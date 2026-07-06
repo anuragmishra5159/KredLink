@@ -1,0 +1,39 @@
+{
+    "gstin": "27AAAAA1151A1Z9",
+    "legal_name": "Mishra Retail Enterprises Private Limited",
+    "registration_date": "2022-04-12",
+    "active_status": "ACTIVE",
+    "taxpayer_type": "REGULAR",
+    "filing_history": [
+        {
+            "filing_period": "2026-04",
+            "gstr1_status": "FILED",
+            "gstr3b_status": "FILED",
+            "declared_gross_turnover": 69946.31,
+            "cgst_paid": 6295.17,
+            "sgst_paid": 6295.17,
+            "igst_paid": 0.0,
+            "filing_date": "2026-04-19"
+        },
+        {
+            "filing_period": "2026-05",
+            "gstr1_status": "FILED",
+            "gstr3b_status": "FILED",
+            "declared_gross_turnover": 69946.31,
+            "cgst_paid": 6295.17,
+            "sgst_paid": 6295.17,
+            "igst_paid": 0.0,
+            "filing_date": "2026-05-19"
+        },
+        {
+            "filing_period": "2026-06",
+            "gstr1_status": "FILED",
+            "gstr3b_status": "FILED",
+            "declared_gross_turnover": 69946.31,
+            "cgst_paid": 6295.17,
+            "sgst_paid": 6295.17,
+            "igst_paid": 0.0,
+            "filing_date": "2026-06-19"
+        }
+    ]
+}

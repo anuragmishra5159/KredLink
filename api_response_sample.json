@@ -1,0 +1,20 @@
+{
+  "profile_id": "MSME-KL-000123",
+  "gstin": "23AAAAA0000A1Z5",
+  "company_name": "Sharma General Store",
+  "computed_at": "2026-07-06",
+  "components": {
+    "u_vel": 0.8722,
+    "gst_auth": 0.5851,
+    "dsb": 0.9535
+  },
+  "weights_used": {
+    "w1_u_vel": 0.3,
+    "w2_gst_auth": 0.4,
+    "w3_dsb": 0.3
+  },
+  "coverage_tier": "FULL",
+  "calculated_fhs": 769,
+  "fraud_flags": [],
+  "explanation_text": "FHS of 769 reflects stable UPI inflow patterns (U_vel=0.87), a moderate match between GST-reported turnover and bank-verified cash deposits (GST_auth=0.59), and a sufficient debt serviceability buffer ahead of monthly obligations (DSB=0.95). Weights: 40% GST authenticity, 30% UPI velocity, 30% serviceability buffer."
+}

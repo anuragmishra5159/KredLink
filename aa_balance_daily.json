@@ -1,0 +1,1082 @@
+[
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-07",
+    "closing_balance": 56323.21,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-08",
+    "closing_balance": 61496.36,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-09",
+    "closing_balance": 62955.45,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-10",
+    "closing_balance": 63103.36,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-11",
+    "closing_balance": 63601.91,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-12",
+    "closing_balance": 63939.88,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-13",
+    "closing_balance": 60325.54,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-14",
+    "closing_balance": 62516.35,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-15",
+    "closing_balance": 64941.07,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-16",
+    "closing_balance": 65835.4,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-17",
+    "closing_balance": 65850.8,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-18",
+    "closing_balance": 68580.31,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-19",
+    "closing_balance": 74672.49,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-20",
+    "closing_balance": 76568.12,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-21",
+    "closing_balance": 77099.04,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-22",
+    "closing_balance": 77420.42,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-23",
+    "closing_balance": 79046.03,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-24",
+    "closing_balance": 77684.12,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-25",
+    "closing_balance": 79170.96,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-26",
+    "closing_balance": 81123.92,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-27",
+    "closing_balance": 87535.62,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-28",
+    "closing_balance": 91694.3,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-29",
+    "closing_balance": 96079.37,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-30",
+    "closing_balance": 96097.0,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-01-31",
+    "closing_balance": 99571.81,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-01",
+    "closing_balance": 98523.35,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-02",
+    "closing_balance": 101103.25,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-03",
+    "closing_balance": 103950.1,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-04",
+    "closing_balance": 103834.07,
+    "is_pre_payout_low": true
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-05",
+    "closing_balance": 110632.52,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-06",
+    "closing_balance": 74718.75,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-07",
+    "closing_balance": 72409.73,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-08",
+    "closing_balance": 74679.93,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-09",
+    "closing_balance": 78314.89,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-10",
+    "closing_balance": 83589.68,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-11",
+    "closing_balance": 88008.66,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-12",
+    "closing_balance": 91714.65,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-13",
+    "closing_balance": 91815.79,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-14",
+    "closing_balance": 92563.89,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-15",
+    "closing_balance": 93367.83,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-16",
+    "closing_balance": 99689.88,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-17",
+    "closing_balance": 99357.83,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-18",
+    "closing_balance": 105668.75,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-19",
+    "closing_balance": 106789.29,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-20",
+    "closing_balance": 109000.99,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-21",
+    "closing_balance": 110421.21,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-22",
+    "closing_balance": 112031.79,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-23",
+    "closing_balance": 111593.28,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-24",
+    "closing_balance": 117475.63,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-25",
+    "closing_balance": 117380.12,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-26",
+    "closing_balance": 122176.61,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-27",
+    "closing_balance": 120537.2,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-02-28",
+    "closing_balance": 121873.53,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-01",
+    "closing_balance": 128048.21,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-02",
+    "closing_balance": 133793.71,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-03",
+    "closing_balance": 138778.97,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-04",
+    "closing_balance": 141697.24,
+    "is_pre_payout_low": true
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-05",
+    "closing_balance": 142120.9,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-06",
+    "closing_balance": 100623.83,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-07",
+    "closing_balance": 102950.45,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-08",
+    "closing_balance": 105255.46,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-09",
+    "closing_balance": 105331.2,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-10",
+    "closing_balance": 108750.94,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-11",
+    "closing_balance": 110793.56,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-12",
+    "closing_balance": 110234.14,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-13",
+    "closing_balance": 116439.18,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-14",
+    "closing_balance": 120218.22,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-15",
+    "closing_balance": 121600.45,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-16",
+    "closing_balance": 121808.77,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-17",
+    "closing_balance": 121647.86,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-18",
+    "closing_balance": 126525.21,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-19",
+    "closing_balance": 127959.02,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-20",
+    "closing_balance": 130907.61,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-21",
+    "closing_balance": 132246.47,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-22",
+    "closing_balance": 135587.5,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-23",
+    "closing_balance": 137097.55,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-24",
+    "closing_balance": 140807.18,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-25",
+    "closing_balance": 142149.15,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-26",
+    "closing_balance": 146023.12,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-27",
+    "closing_balance": 149504.08,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-28",
+    "closing_balance": 151012.56,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-29",
+    "closing_balance": 150663.12,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-30",
+    "closing_balance": 150112.82,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-03-31",
+    "closing_balance": 150060.97,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-01",
+    "closing_balance": 149399.75,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-02",
+    "closing_balance": 153364.25,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-03",
+    "closing_balance": 155047.74,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-04",
+    "closing_balance": 160772.99,
+    "is_pre_payout_low": true
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-05",
+    "closing_balance": 168271.32,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-06",
+    "closing_balance": 130070.37,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-07",
+    "closing_balance": 131084.85,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-08",
+    "closing_balance": 128845.6,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-09",
+    "closing_balance": 129507.59,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-10",
+    "closing_balance": 129218.03,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-11",
+    "closing_balance": 134360.27,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-12",
+    "closing_balance": 137732.33,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-13",
+    "closing_balance": 138484.47,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-14",
+    "closing_balance": 142184.85,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-15",
+    "closing_balance": 146288.3,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-16",
+    "closing_balance": 144833.28,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-17",
+    "closing_balance": 145964.54,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-18",
+    "closing_balance": 149808.6,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-19",
+    "closing_balance": 149480.53,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-20",
+    "closing_balance": 152661.38,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-21",
+    "closing_balance": 154092.26,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-22",
+    "closing_balance": 157143.51,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-23",
+    "closing_balance": 153733.2,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-24",
+    "closing_balance": 158378.6,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-25",
+    "closing_balance": 157798.28,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-26",
+    "closing_balance": 154753.47,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-27",
+    "closing_balance": 154971.14,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-28",
+    "closing_balance": 155366.99,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-29",
+    "closing_balance": 157098.96,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-04-30",
+    "closing_balance": 158877.83,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-01",
+    "closing_balance": 160068.62,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-02",
+    "closing_balance": 164447.95,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-03",
+    "closing_balance": 163052.93,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-04",
+    "closing_balance": 163096.85,
+    "is_pre_payout_low": true
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-05",
+    "closing_balance": 162260.83,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-06",
+    "closing_balance": 125952.71,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-07",
+    "closing_balance": 122450.13,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-08",
+    "closing_balance": 125152.03,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-09",
+    "closing_balance": 127386.81,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-10",
+    "closing_balance": 127725.49,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-11",
+    "closing_balance": 132117.81,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-12",
+    "closing_balance": 135446.41,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-13",
+    "closing_balance": 135730.7,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-14",
+    "closing_balance": 135855.66,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-15",
+    "closing_balance": 139393.54,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-16",
+    "closing_balance": 137403.35,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-17",
+    "closing_balance": 138371.8,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-18",
+    "closing_balance": 138594.18,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-19",
+    "closing_balance": 140568.88,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-20",
+    "closing_balance": 142896.69,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-21",
+    "closing_balance": 144788.66,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-22",
+    "closing_balance": 149425.78,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-23",
+    "closing_balance": 151795.94,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-24",
+    "closing_balance": 152808.46,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-25",
+    "closing_balance": 151581.32,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-26",
+    "closing_balance": 155185.95,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-27",
+    "closing_balance": 158306.31,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-28",
+    "closing_balance": 163733.34,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-29",
+    "closing_balance": 163664.7,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-30",
+    "closing_balance": 165530.74,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-05-31",
+    "closing_balance": 167184.01,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-01",
+    "closing_balance": 168764.98,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-02",
+    "closing_balance": 170590.96,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-03",
+    "closing_balance": 168104.61,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-04",
+    "closing_balance": 171967.08,
+    "is_pre_payout_low": true
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-05",
+    "closing_balance": 175400.09,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-06",
+    "closing_balance": 141576.83,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-07",
+    "closing_balance": 142588.42,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-08",
+    "closing_balance": 146187.77,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-09",
+    "closing_balance": 148575.15,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-10",
+    "closing_balance": 151974.33,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-11",
+    "closing_balance": 151524.15,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-12",
+    "closing_balance": 154502.08,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-13",
+    "closing_balance": 152783.65,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-14",
+    "closing_balance": 157937.3,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-15",
+    "closing_balance": 159481.69,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-16",
+    "closing_balance": 166292.46,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-17",
+    "closing_balance": 166465.74,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-18",
+    "closing_balance": 165238.05,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-19",
+    "closing_balance": 164447.14,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-20",
+    "closing_balance": 161538.49,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-21",
+    "closing_balance": 163197.08,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-22",
+    "closing_balance": 159903.77,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-23",
+    "closing_balance": 160123.82,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-24",
+    "closing_balance": 161810.77,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-25",
+    "closing_balance": 160776.35,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-26",
+    "closing_balance": 162467.59,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-27",
+    "closing_balance": 166148.63,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-28",
+    "closing_balance": 165185.43,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-29",
+    "closing_balance": 163743.48,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-06-30",
+    "closing_balance": 162065.05,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-07-01",
+    "closing_balance": 163396.73,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-07-02",
+    "closing_balance": 165042.17,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-07-03",
+    "closing_balance": 167834.26,
+    "is_pre_payout_low": false
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-07-04",
+    "closing_balance": 169191.1,
+    "is_pre_payout_low": true
+  },
+  {
+    "profile_id": "MSME-KL-000123",
+    "snapshot_date": "2026-07-05",
+    "closing_balance": 172931.94,
+    "is_pre_payout_low": false
+  }
+]
