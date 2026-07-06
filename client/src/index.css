@@ -82,6 +82,35 @@
     color: #64748B;
   }
 
+  /* Warm Cream / Lime Onboarding Field */
+  .onboard-field {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1.5px solid #DAD8CC;
+    border-radius: 999px;
+    padding: 12px 20px;
+    color: #1A1A17;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.25s ease;
+    outline: none;
+  }
+  .onboard-field:focus {
+    border-color: #8DC63F;
+    box-shadow: 0 0 0 3px rgba(141, 198, 63, 0.25);
+  }
+
+  /* Responsive visibility */
+  @media (max-width: 768px) {
+    .desktop-nav, .desktop-ctas {
+      display: none !important;
+    }
+    .mobile-hamburger {
+      display: block !important;
+    }
+  }
+
+
   /* Primary button */
   .btn-primary {
     background: linear-gradient(135deg, #3B82F6, #2563EB);
