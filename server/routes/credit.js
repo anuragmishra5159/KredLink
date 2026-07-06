@@ -47,7 +47,7 @@ const normAa = (raw) =>
 // POST /api/v1/credit/calculate-score
 router.post("/calculate-score", async (req, res) => {
   try {
-    const { merchantId, upiDailyTxn, gstReturns, aaBalanceDaily } = req.body;
+    const { merchantId, upiDailyTxn, gstReturns, aaBalanceDaily, customWeights } = req.body;
 
     const merchant = await Merchant.findById(merchantId);
     if (!merchant) return res.status(404).json({ success: false, message: "Merchant not found" });
@@ -65,6 +65,7 @@ router.post("/calculate-score", async (req, res) => {
       upiDailyTxn: upi,
       gstReturns: gst,
       aaBalanceDaily: aa,
+      customWeights
     });
 
     // Persist credit score

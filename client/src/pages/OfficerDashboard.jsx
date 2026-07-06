@@ -25,25 +25,25 @@ import { useAuth } from "../context/AuthContext";
 import api from "../api/axios";
 import { TOKENS } from "../theme/tokens";
 
-// ─── Theme Config ──────────────────────────────────────────────────────────
+// ─── Theme Config (Cream & Lime Green Design System) ──────────────────────────
 const C = {
-  bg:         "#060913",
-  sidebar:    "rgba(10, 15, 30, 0.7)",
-  card:       "rgba(20, 27, 54, 0.45)",
-  cardHover:  "rgba(25, 35, 70, 0.55)",
-  border:     "rgba(255, 255, 255, 0.05)",
-  borderHover:"rgba(139, 92, 246, 0.3)",
-  text:       "#F1F5F9",
-  muted:      "#94A3B8",
+  bg:         TOKENS.colors.bgBase,      // Soft cream
+  sidebar:    "#FFFFFF",                 // Clean white
+  card:       "#FFFFFF",                 // Clean white
+  cardHover:  "#FFFFFF",
+  border:     TOKENS.colors.border,      // Soft warm gray
+  borderHover:TOKENS.colors.primaryAccent,
+  text:       TOKENS.colors.textPrimary, // Near-black text
+  muted:      TOKENS.colors.textMuted,   // Warm gray text
   
-  cyan:       "#06B6D4",   // UPI
-  purple:     "#8B5CF6",   // GST
-  emerald:    "#10B981",   // DSB
-  pink:       "#EC4899",   // Overall / Warning
+  cyan:       "#0D9488",   // UPI (Teal)
+  purple:     "#7C3AED",   // GST (Purple)
+  emerald:    "#059669",   // DSB (Emerald)
+  pink:       "#DC2626",   // Warning / Penalty (Red)
   
-  accentGrad: "linear-gradient(135deg, #3B82F6 0%, #8B5CF6 50%, #EC4899 100%)",
-  approveGrad: "linear-gradient(135deg, #10B981 0%, #06B6D4 100%)",
-  flagGrad:    "linear-gradient(135deg, #EF4444 0%, #EC4899 100%)",
+  accentGrad: "linear-gradient(135deg, #16321F 0%, #16321F 100%)", // Deep forest green fill
+  approveGrad: "linear-gradient(135deg, #16321F 0%, #16321F 100%)",
+  flagGrad:    "linear-gradient(135deg, #DC2626 0%, #DC2626 100%)",
 };
 
 // Fallback Seed Data
@@ -196,8 +196,8 @@ function ScoreRing({ value, max = 1, color, label, size = 110 }) {
               startAngle={90} endAngle={-270}
               strokeWidth={0}
             >
-              <Cell fill={color} style={{ filter: `drop-shadow(0 0 6px ${color}80)` }} />
-              <Cell fill="rgba(255, 255, 255, 0.04)" />
+              <Cell fill={color} />
+              <Cell fill="rgba(0, 0, 0, 0.06)" />
             </Pie>
           </PieChart>
         </ResponsiveContainer>
@@ -208,8 +208,7 @@ function ScoreRing({ value, max = 1, color, label, size = 110 }) {
         }}>
           <span style={{
             fontSize: size > 140 ? 32 : 18,
-            fontWeight: 900, color: C.text, fontVariantNumeric: "tabular-nums",
-            textShadow: `0 0 16px ${color}50`
+            fontWeight: 900, color: C.text, fontVariantNumeric: "tabular-nums"
           }}>
             {display}
           </span>
@@ -234,11 +233,10 @@ function WidgetCard({ children, title, sub, style = {} }) {
       className="glass-card"
       style={{
         background: C.card,
-        border: `1px solid ${C.border}`,
-        borderRadius: 16,
+        border: `1.5px solid ${C.border}`,
+        borderRadius: 20,
         padding: 20,
-        boxShadow: "0 8px 32px 0 rgba(0, 0, 0, 0.37)",
-        backdropFilter: "blur(12px)",
+        boxShadow: "0 8px 32px 0 rgba(22, 50, 31, 0.03)",
         ...style
       }}
       whileHover={{ y: -2, borderColor: C.borderHover }}
@@ -247,7 +245,7 @@ function WidgetCard({ children, title, sub, style = {} }) {
       {title && (
         <div style={{ marginBottom: 16, display: "flex", justifyContent: "space-between", alignItems: "start" }}>
           <div>
-            <h3 style={{ margin: 0, fontSize: 13, fontWeight: 700, color: C.text, textTransform: "uppercase", letterSpacing: "0.05em" }}>
+            <h3 style={{ margin: 0, fontSize: 13, fontWeight: 800, fontFamily: TOKENS.fonts.heading, color: TOKENS.colors.darkAccent, textTransform: "uppercase", letterSpacing: "0.05em" }}>
               {title}
             </h3>
             {sub && <p style={{ margin: "2px 0 0", fontSize: 11, color: C.muted }}>{sub}</p>}

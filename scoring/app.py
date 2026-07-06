@@ -206,12 +206,25 @@ def score():
             "status": "INSUFFICIENT_DATA"
         }), 200
 
-    # Reweight for PARTIAL coverage
-    weights = {"uVel": 0.30, "gstAuth": 0.40, "dsb": 0.30}
+    # Support custom weights from request
+    custom_weights = body.get("customWeights", {})
+    w_upi = float(custom_weights.get("w1UVel", 0.30))
+    w_gst = float(custom_weights.get("w2GstAuth", 0.40))
+    w_dsb = float(custom_weights.get("w3Dsb", 0.30))
+    w_sum = w_upi + w_gst + w_dsb
+    if w_sum > 0:
+        weight_map = {"uVel": w_upi / w_sum, "gstAuth": w_gst / w_sum, "dsb": w_dsb / w_sum}
+    else:
+        weight_map = {"uVel": 0.30, "gstAuth": 0.40, "dsb": 0.30}
+
     available = {k: v for k, v in [("uVel", u_vel), ("gstAuth", gst_auth), ("dsb", dsb)] if v is not None}
-    weight_map = {"uVel": 0.30, "gstAuth": 0.40, "dsb": 0.30}
+    
+    # Calculate composite score based on available streams
     total_w = sum(weight_map[k] for k in available)
-    composite = sum(weight_map[k] * available[k] for k in available) / total_w
+    if total_w > 0:
+        composite = sum(weight_map[k] * available[k] for k in available) / total_w
+    else:
+        composite = 0.0
 
     fhs = round(300 + 600 * composite)
     fhs = max(300, min(900, fhs))  # safety clamp
