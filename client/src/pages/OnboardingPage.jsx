@@ -523,12 +523,52 @@ export default function OnboardingPage() {
                     lineHeight: 1.6,
                     color: TOKENS.colors.textPrimary,
                     background: "#FDFDFD",
-                    marginBottom: 24
+                    marginBottom: 20
                   }}>
                     <span style={{ fontWeight: 700, color: TOKENS.colors.darkAccent }}>Rational: </span>
                     {creditScore.explanationText}
                   </div>
                 )}
+
+                {/* Score Ranges and Remarks Legend */}
+                <div style={{
+                  background: "#F9F9FB",
+                  border: `1.5px solid ${TOKENS.colors.border}`,
+                  borderRadius: 16,
+                  padding: 20,
+                  marginBottom: 24
+                }}>
+                  <h4 style={{ margin: "0 0 12px", fontSize: 13, fontWeight: 800, fontFamily: TOKENS.fonts.heading, color: TOKENS.colors.darkAccent, textTransform: "uppercase", letterSpacing: "0.03em" }}>
+                    Score Interpretation Ranges
+                  </h4>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+                    {[
+                      { range: "750 – 900", band: "Excellent", color: "#10B981", remark: "High auto-approval rate. Extremely consistent cash flow & low default risk." },
+                      { range: "650 – 749", band: "Good", color: "#3B82F6", remark: "Favorable rate terms. Standard underwriting review with fast processing." },
+                      { range: "550 – 649", band: "Fair", color: "#F59E0B", remark: "Manual review recommended. Moderate activity with minor anomalies." },
+                      { range: "300 – 549", band: "Poor", color: "#EF4444", remark: "High risk profile. Requires manual override, collateral, or co-signers." }
+                    ].map(r => {
+                      const minScore = parseInt(r.range.split(" – ")[0]);
+                      const maxScore = parseInt(r.range.split(" – ")[1]);
+                      const active = creditScore.finalFhsScore >= minScore && creditScore.finalFhsScore <= maxScore;
+                      return (
+                        <div key={r.band} style={{
+                          display: "flex", alignItems: "start", gap: 10, padding: "8px 10px", borderRadius: 8,
+                          background: active ? `${r.color}08` : "transparent",
+                          border: active ? `1px solid ${r.color}30` : "1px solid transparent"
+                        }}>
+                          <div style={{ display: "flex", flexDirection: "column", minWidth: 80 }}>
+                            <span style={{ fontSize: 12, fontWeight: 800, color: r.color }}>{r.band}</span>
+                            <span style={{ fontSize: 11, fontWeight: 700, color: TOKENS.colors.textMuted }}>{r.range}</span>
+                          </div>
+                          <p style={{ margin: 0, fontSize: 11.5, color: TOKENS.colors.textMuted, lineHeight: 1.4, flex: 1 }}>
+                            {r.remark} {active && <strong style={{ color: r.color, marginLeft: 4 }}>(Your Band)</strong>}
+                          </p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
 
                 {/* Home link */}
                 <div style={{ display: "flex", gap: 12 }}>
