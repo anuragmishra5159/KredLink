@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { motion, useMotionValue, useTransform, AnimatePresence } from "framer-motion";
 import {
   TrendingUp, Play, ArrowRight, ShieldCheck, Zap,
-  CheckCircle, Database, HelpCircle, UserCheck, Menu, X, Plus, BarChart3
+  CheckCircle, Database, HelpCircle, UserCheck, Menu, X, Plus, BarChart3, Loader2, AlertTriangle
 } from "lucide-react";
 import { TOKENS } from "../theme/tokens";
 import api from "../api/axios";
