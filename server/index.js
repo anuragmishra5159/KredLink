@@ -11,7 +11,17 @@ const decisionRoutes  = require("./routes/decisions");
 const app = express();
 
 // ─── Middleware ───────────────────────────────────────────────────────────────
-app.use(cors({ origin: "http://localhost:5173", credentials: true }));
+const allowedOrigins = ["http://localhost:5173", "http://localhost:5174"];
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  credentials: true
+}));
 app.use(express.json({ limit: "10mb" }));
 
 // ─── Routes ───────────────────────────────────────────────────────────────────
