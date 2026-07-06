@@ -5,12 +5,13 @@
 
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { motion, useMotionValue, useTransform } from "framer-motion";
+import { motion, useMotionValue, useTransform, AnimatePresence } from "framer-motion";
 import {
   TrendingUp, Play, ArrowRight, ShieldCheck, Zap,
   CheckCircle, Database, HelpCircle, UserCheck, Menu, X, Plus, BarChart3
 } from "lucide-react";
 import { TOKENS } from "../theme/tokens";
+import api from "../api/axios";
 
 // Stagger child animation helper
 const containerVariants = {
@@ -37,6 +38,32 @@ export default function LandingPage() {
   const navigate = useNavigate();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [hoveredLogo, setHoveredLogo] = useState(null);
+
+  // Tracking states
+  const [trackPan, setTrackPan] = useState("");
+  const [trackResult, setTrackResult] = useState(null);
+  const [trackError, setTrackError] = useState("");
+  const [tracking, setTracking] = useState(false);
+
+  const handleTrack = async (e) => {
+    e.preventDefault();
+    if (!trackPan.trim()) return;
+    setTracking(true);
+    setTrackError("");
+    setTrackResult(null);
+    try {
+      const { data } = await api.post("/merchants/track", { pan: trackPan });
+      if (data.success) {
+        setTrackResult(data);
+      } else {
+        setTrackError(data.message || "Application not found.");
+      }
+    } catch (err) {
+      setTrackError(err.response?.data?.message || "No application found for this PAN.");
+    } finally {
+      setTracking(false);
+    }
+  };
 
   // Parallax tilt effect for hero cards
   const mouseX = useMotionValue(0);
@@ -320,6 +347,168 @@ export default function LandingPage() {
                   {tag}
                 </span>
               ))}
+            </motion.div>
+
+            {/* Track Application Widget Card */}
+            <motion.div
+              variants={fadeUp}
+              style={{
+                marginTop: 32,
+                background: "#FFFFFF",
+                border: `1px solid ${TOKENS.colors.border}`,
+                borderRadius: 20,
+                padding: 20,
+                boxShadow: "0 8px 24px rgba(22, 50, 31, 0.02)"
+              }}
+            >
+              <h4 style={{ margin: "0 0 6px", fontSize: 13, fontWeight: 800, fontFamily: TOKENS.fonts.heading, color: TOKENS.colors.darkAccent, textTransform: "uppercase", letterSpacing: "0.03em" }}>
+                Track Application
+              </h4>
+              <p style={{ margin: "0 0 16px", fontSize: 12, color: TOKENS.colors.textMuted }}>
+                Check the live credit decision status of your MSME profile.
+              </p>
+
+              <form onSubmit={handleTrack} style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
+                <input
+                  type="text"
+                  placeholder="Enter business PAN (e.g. ABCDE1234F)"
+                  value={trackPan}
+                  onChange={(e) => setTrackPan(e.target.value)}
+                  maxLength={10}
+                  style={{
+                    flex: 1,
+                    minWidth: 200,
+                    background: TOKENS.colors.bgBase,
+                    border: `1.5px solid ${TOKENS.colors.border}`,
+                    borderRadius: 999,
+                    padding: "10px 18px",
+                    fontSize: 12.5,
+                    fontWeight: 600,
+                    color: TOKENS.colors.textPrimary,
+                    outline: "none",
+                    textTransform: "uppercase"
+                  }}
+                />
+                <motion.button
+                  type="submit"
+                  disabled={tracking}
+                  style={{
+                    background: TOKENS.colors.darkAccent,
+                    color: "#FFFFFF",
+                    border: "none",
+                    borderRadius: 999,
+                    padding: "10px 22px",
+                    fontSize: 12.5,
+                    fontWeight: 700,
+                    cursor: "pointer",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 6
+                  }}
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                >
+                  {tracking ? <Loader2 size={13} className="animate-spin" /> : "Track"}
+                </motion.button>
+              </form>
+
+              {/* Error block */}
+              {trackError && (
+                <div style={{ display: "flex", alignItems: "center", gap: 6, color: "#EF4444", fontSize: 12, marginTop: 12 }}>
+                  <AlertTriangle size={14} />
+                  <span>{trackError}</span>
+                </div>
+              )}
+
+              {/* Result block */}
+              <AnimatePresence>
+                {trackResult && (
+                  <motion.div
+                    initial={{ opacity: 0, height: 0, marginTop: 0 }}
+                    animate={{ opacity: 1, height: "auto", marginTop: 16 }}
+                    exit={{ opacity: 0, height: 0, marginTop: 0 }}
+                    style={{
+                      borderTop: `1.5px solid ${TOKENS.colors.border}`,
+                      paddingTop: 16,
+                      display: "flex",
+                      flexDirection: "column",
+                      gap: 12,
+                      overflow: "hidden"
+                    }}
+                  >
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <span style={{ fontSize: 13, fontWeight: 800, color: TOKENS.colors.darkAccent }}>
+                        {trackResult.merchant.businessName}
+                      </span>
+                      <button
+                        onClick={() => setTrackResult(null)}
+                        style={{ background: "none", border: "none", cursor: "pointer", color: TOKENS.colors.textMuted }}
+                      >
+                        <X size={14} />
+                      </button>
+                    </div>
+
+                    <div style={{ display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap" }}>
+                      {/* Status */}
+                      <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+                        <span style={{ fontSize: 11, color: TOKENS.colors.textMuted }}>Status:</span>
+                        <span style={{
+                          fontSize: 10,
+                          fontWeight: 800,
+                          padding: "2px 8px",
+                          borderRadius: 99,
+                          textTransform: "uppercase",
+                          background:
+                            trackResult.merchant.status === "APPROVED_FOR_MICRO_CREDIT" ? "rgba(16, 185, 129, 0.12)" :
+                            trackResult.merchant.status === "REVIEW_REQUIRED" ? "rgba(245, 158, 11, 0.12)" : "rgba(59, 130, 246, 0.12)",
+                          color:
+                            trackResult.merchant.status === "APPROVED_FOR_MICRO_CREDIT" ? "#10B981" :
+                            trackResult.merchant.status === "REVIEW_REQUIRED" ? "#F59E0B" : "#3B82F6",
+                          border: `1px solid ${
+                            trackResult.merchant.status === "APPROVED_FOR_MICRO_CREDIT" ? "rgba(16, 185, 129, 0.25)" :
+                            trackResult.merchant.status === "REVIEW_REQUIRED" ? "rgba(245, 158, 11, 0.25)" : "rgba(59, 130, 246, 0.25)"
+                          }`
+                        }}>
+                          {trackResult.merchant.status === "APPROVED_FOR_MICRO_CREDIT" ? "Approved" :
+                           trackResult.merchant.status === "REVIEW_REQUIRED" ? "Review Required" : "Pending Review"}
+                        </span>
+                      </div>
+
+                      {/* FHS score indicator */}
+                      {trackResult.creditScore && (
+                        <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+                          <span style={{ fontSize: 11, color: TOKENS.colors.textMuted }}>FHS Score:</span>
+                          <span style={{
+                            fontSize: 12,
+                            fontWeight: 800,
+                            color:
+                              trackResult.creditScore.finalFhsScore >= 750 ? "#10B981" :
+                              trackResult.creditScore.finalFhsScore >= 650 ? "#3B82F6" : "#F59E0B"
+                          }}>
+                            {trackResult.creditScore.finalFhsScore}
+                          </span>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Officer notes */}
+                    {trackResult.merchant.decisionNote && (
+                      <div style={{
+                        background: TOKENS.colors.bgBase,
+                        borderRadius: 10,
+                        padding: 10,
+                        fontSize: 11.5,
+                        lineHeight: 1.4,
+                        color: TOKENS.colors.textPrimary,
+                        borderLeft: `3.5px solid ${TOKENS.colors.primaryAccent}`
+                      }}>
+                        <strong>Officer Notes: </strong>
+                        {trackResult.merchant.decisionNote}
+                      </div>
+                    )}
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </motion.div>
           </motion.div>
 

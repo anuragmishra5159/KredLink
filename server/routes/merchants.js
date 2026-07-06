@@ -25,6 +25,39 @@ router.post("/onboard", async (req, res) => {
   }
 });
 
+// POST /api/v1/merchants/track  — public application tracking by PAN
+router.post("/track", async (req, res) => {
+  try {
+    const { pan } = req.body;
+    if (!pan) {
+      return res.status(400).json({ success: false, message: "PAN number is required" });
+    }
+
+    const cleanedPan = pan.trim().toUpperCase();
+    const merchant = await Merchant.findOne({ pan: cleanedPan }).lean();
+    if (!merchant) {
+      return res.status(404).json({ success: false, message: "No application found for this PAN" });
+    }
+
+    const creditScore = await CreditScore.findOne({ merchantId: merchant._id })
+      .sort({ computedAt: -1 })
+      .lean();
+
+    const consent = await ConsentRecord.findOne({ merchantId: merchant._id })
+      .sort({ createdAt: -1 })
+      .lean();
+
+    res.json({
+      success: true,
+      merchant,
+      creditScore: creditScore || null,
+      consent: consent || null
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
 // POST /api/v1/merchants/:id/consent
 router.post("/:id/consent", async (req, res) => {
   try {
