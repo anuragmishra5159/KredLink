@@ -18,7 +18,7 @@ const ConsentRecord = require("./models/ConsentRecord");
 const CreditScore = require("./models/CreditScore");
 
 const MONGO_URI = process.env.MONGO_URI || "mongodb://localhost:27017/kredlink";
-const DATA_DIR = path.join(__dirname, "../");
+const DATA_DIR = path.join(__dirname, "./data");
 
 const readJson = (file) =>
   JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), "utf8"));
@@ -38,7 +38,8 @@ const normAa = (raw) => raw.map((d) => ({
 
 async function callScoring(upi, gst, aa) {
   try {
-    const { data } = await axios.post("http://localhost:5001/score", {
+    const scoringUrl = process.env.SCORING_SERVICE_URL || "http://localhost:5001";
+    const { data } = await axios.post(`${scoringUrl}/score`, {
       upiDailyTxn: upi, gstReturns: gst, aaBalanceDaily: aa,
     });
     return data;

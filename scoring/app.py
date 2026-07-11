@@ -261,5 +261,5 @@ def score():
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("SCORING_PORT", 5001))
+    port = int(os.environ.get("PORT", os.environ.get("SCORING_PORT", 5001)))
     app.run(host="0.0.0.0", port=port, debug=False)

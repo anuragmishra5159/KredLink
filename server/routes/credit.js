@@ -10,7 +10,7 @@ const { protect } = require("../middleware/auth");
 const SCORING_URL = process.env.SCORING_SERVICE_URL || "http://localhost:5001";
 
 // Load mock data files (used as the "retrieved" alternate data streams)
-const DATA_DIR = path.join(__dirname, "../../");
+const DATA_DIR = path.join(__dirname, "../data");
 const loadMockData = (filename) => {
   try {
     return JSON.parse(fs.readFileSync(path.join(DATA_DIR, filename), "utf8"));

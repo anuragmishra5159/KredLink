@@ -1,7 +1,13 @@
 import json
 import random
 import math
+import os
 from datetime import date, timedelta
+
+# Output directory for mock data
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, "../server/data"))
+os.makedirs(DATA_DIR, exist_ok=True)
 
 random.seed(42)
 
@@ -71,13 +77,13 @@ for i in range(180):
 # ---------------------------------------------------------------
 # Save raw mock inputs (what each API/stream would return)
 # ---------------------------------------------------------------
-with open("upi_daily_transactions.json", "w") as f:
+with open(os.path.join(DATA_DIR, "upi_daily_transactions.json"), "w") as f:
     json.dump(upi_days, f, indent=2)
 
-with open("gst_returns_monthly.json", "w") as f:
+with open(os.path.join(DATA_DIR, "gst_returns_monthly.json"), "w") as f:
     json.dump(gst_returns, f, indent=2)
 
-with open("aa_balance_daily.json", "w") as f:
+with open(os.path.join(DATA_DIR, "aa_balance_daily.json"), "w") as f:
     json.dump(aa_balances, f, indent=2)
 
 # ---------------------------------------------------------------
@@ -168,7 +174,7 @@ api_response = {
     )
 }
 
-with open("api_response_sample.json", "w") as f:
+with open(os.path.join(DATA_DIR, "api_response_sample.json"), "w") as f:
     json.dump(api_response, f, indent=2)
 
 print(json.dumps(api_response, indent=2))

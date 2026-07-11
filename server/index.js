@@ -11,10 +11,19 @@ const decisionRoutes  = require("./routes/decisions");
 const app = express();
 
 // ─── Middleware ───────────────────────────────────────────────────────────────
-const allowedOrigins = ["http://localhost:5173", "http://localhost:5174"];
+const allowedOrigins = process.env.ALLOWED_ORIGINS 
+  ? process.env.ALLOWED_ORIGINS.split(",") 
+  : ["http://localhost:5173", "http://localhost:5174"];
+
 app.use(cors({
   origin: function (origin, callback) {
-    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+    if (!origin) return callback(null, true);
+    
+    const isAllowed = allowedOrigins.includes(origin) || 
+                      origin.endsWith(".vercel.app") || 
+                      origin.startsWith("http://localhost:");
+                      
+    if (isAllowed) {
       callback(null, true);
     } else {
       callback(new Error("Not allowed by CORS"));
